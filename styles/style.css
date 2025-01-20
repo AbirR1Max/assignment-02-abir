@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* common elements */
+.quicksand-font {
+    font-family: "Quicksand", serif;
+}
+.btn{
+    color: white;
+    background-color: #111;
+    width: 12.3rem;
+    padding: 0.625rem;
+    border-radius: 0.75rem;
+    border: none;
+}
+.btn:hover{
+    color: white;
+    background-color: gray;
+}
+/* text format  */
+h2{
+    color: #000;
+text-align: center;
+font-family: Quicksand;
+font-size: 2.875rem;
+font-weight: 700;
+}  
+
+/* colors */
+.primary-color{
+    color: #FEA301;
+}
+.secondary-color{
+    color: #01ACFD;
+}
+.third-color{
+    color: #05D4DF;
+}
+.fourth-color{
+    color: #5D58EF;
+}
+.black-1{
+    color: #111;
+}
+.black{
+    color: #000;
+}
+.accent-color{
+    color: #FEA301;
+}
+.accent-color-2{
+    color: #3CD8E8;
+}
+.accent-color-3{
+    color: #95B226;
+}
+/* styles */
+
+#head-section {
+    height: 6.38rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11.62rem;
+    border-bottom: 1px solid black;
+    margin: ;
+}
+#head-section button{
+    background-color: #FEA301;
+}
+#head-section button:hover{
+    background-color: gray;
+}
+
+.logo-section {
+    display: flex;
+}
+
+.logo-section>h2 {
+    display: flex;
+    color: black;
+    font-family: Quicksand;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11.62rem;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul{
+    display: flex;
+    gap: 2rem;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+main{
+    margin-left: 140px;
+    margin-right: 140px;
+
+}
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.hero-content > h1{
+    font-size: 56px;
+    font-weight: 700;
+}
+.hero-content > p{
+    font-size: 20px;
+    font-weight: 400;
+}
